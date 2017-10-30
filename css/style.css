@@ -12,15 +12,24 @@ body{
 }
 
 h1, h2, h3,h4,h5,h6{
-	color: #000;
+	color: #283E56;
 }
 
 h1, h2, h3{
 	text-transform: uppercase;
 }
 
+#headOpis {
+	font-family: 'Montserrat';
+	text-transform: none;
+	color: #fff;
+	font-size: 26px;
+	margin: 10px;
+	margin-top: 35px;
+}
+
 h2{
-	font-size: 25px;
+	font-size: 26px;
 }
 
 h3{
@@ -28,19 +37,19 @@ h3{
 }
 
 a{
-	color: #fa5c58;
+	color: #FFDE25;
 	text-decoration: none;
 }
 
 a:hover,
 a:focus{
-	color: #fa5c58;
+	color: #283E56;
 	text-decoration: underline;
 }
 
 section header{
 	text-align: center;
-	padding:90px 0;
+	padding:50px 0;
 }
 
 section header h2{
@@ -62,24 +71,25 @@ section.dark header p{
 Buttons
 ***********************/
 .btn-primary{
-	background: #fa5c58;
-	border-width: 2px;
-	color: #fff;
+	background: #FFDE25;
+	color: #1989AC;
+
 }
 
 .btn-primary,
 .btn-primary:hover{
-	border-color: #fe4a46;
+	border-color: #1989AC;
 }
 
 .btn-primary:hover,
 .btn-primary:focus{
 	background: #fff;
-	color: #fa5c58;
+	color: #1989AC;
 }
 
 .btn{
 	padding: 15px 30px;
+	margin: 5px;
 	border-radius: 0;
 	-webkit-transition: border-color 0.4s, color 0.4s;
 	transition: border-color 0.4s, color 0.4s;
@@ -118,11 +128,11 @@ NAVBAR
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
 	color: #000;
-	border: 1px solid #fa5c58;
+	border: 1px solid #1989AC;
 }
 
 .navbar-small{
-	height: 50px;
+	height: 63px;
 }
 
 .navbar-small .navbar-brand{
@@ -140,7 +150,7 @@ NAVBAR
 
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus{
-	color: #fa5c58;
+	color: #1989AC;
 	border:none;
 }
 
@@ -149,7 +159,7 @@ NAVBAR
 }
 
 .slide{
-	background: url(../img/Slider.jpg) no-repeat;
+	background: url(../img/DSC_0048.JPG) no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 500px;
@@ -210,16 +220,16 @@ Services
 	width: 75px;
 	height: 75px;
 	display: block;
-	color: #fa5c58;
+	color: #FFDE25;
 	border-radius: 100%;
-	background: #000;
+	background: #1989AC;
 	text-align: center;
 	line-height: 75px;
 	font-size: 30px;
 }
 
 .video-wrapper{
-	background-image: url(../img/video-bg.jpg);
+	background-image: url(../img/header.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -263,15 +273,15 @@ PORTFOLIO
 .nav-pills > li > a{
 	border-radius: 0;
 	color: #000;
-	border:1px solid #000;
+	
 	margin-right: 20px;
 }
 
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus,
 .nav-pills > li > a.active{
-	background: #fa5c58;
-	border-color: #fa5c58;
+	background: #1989AC;
+	border-color: #1989AC;
 	color: #fff;
 }
 
@@ -312,7 +322,7 @@ figcaption h3 {
 }
 
 figcaption span {
-	color: #fb5d59;
+	color: #1989AC;
 }
 
 #about .baner {
@@ -346,7 +356,7 @@ figcaption span {
 .box .delimiter{
 	width: 60px;
 	height: 0;
-	border-bottom: 2px solid #fa5c58;
+	border-bottom: 2px solid #1989AC;
 	display: block;
 }
 
@@ -356,6 +366,7 @@ Team
 .team-member{
 	text-align: center;
 	margin-bottom: 80px;
+
 }
 .member-photo{
 	position: relative;
@@ -363,13 +374,13 @@ Team
 
 .member-photo .overlay{
 	position: absolute;
-	padding: 20px 50px;
+	padding: 10px 50px;
 
 	color: #fff;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 130px;
+	height: 170px;
 	display: block;
 	background: #3f3f41;
 	background: rgba(63, 63, 65, 0.8)
@@ -436,7 +447,7 @@ ul.social li a:hover .fa-behance{
 	background-color: #1769ff;
 }
 
-ul.social li a:hover .fa-pinterest{
+ul.social li a:hover .fa-pintet{
 	background-color: #cc2127;
 }
 
@@ -458,7 +469,7 @@ ul.social li a:hover .fa-google{
 .circled{
 	display: block;
 	border-radius: 100%;
-	background-color: #fa5c58;
+	background-color: #1989AC;
 	width: 80px;
 	height: 80px;
 	color: #fff;
@@ -532,7 +543,7 @@ BLOGS
 }
 
 .blog-item h3{
-	color: #fb5d59;
+	color: #1989AC;
 	margin-bottom: 70px;
 	font-size: 20px;
 }
@@ -567,8 +578,8 @@ SERVICES
 
 footer{
 	text-align: center;
-	background:#000;
-	color: #fff;
+	background:#1989AC;
+	color: #E8F1F5;
 	padding: 50px 0 10px 0;
 }
 
@@ -585,7 +596,40 @@ footer a{
 	color: #fff;
 }
 
-
  .mix{
 	display: none;
+}
+/*******************************
+CONTACT FORM
+********************************/
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-signup .header {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    padding: 20px 0;
+}
+.card-signup .social-line {
+    margin-top: 15px;
+    text-align: center;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.card-signup .social-line .btn {
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
 }
