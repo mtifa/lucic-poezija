@@ -253,6 +253,16 @@ Services
 	padding-left: 10px; 
 }
 
+
+/*Foto*/
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: block; }
+
+.carousel .carousel-inner {
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); }
+.carousel .now-ui-icons {
+  font-size: 2em; }
+
 /**********************
 PORTFOLIO
 ***********************/
