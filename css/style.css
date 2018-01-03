@@ -11,6 +11,10 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+#logo {
+	height: 40px;
+}
+
 h1, h2, h3,h4,h5,h6{
 	color: #283E56;
 }
@@ -34,6 +38,7 @@ h2{
 
 h3{
 	font-size: 20px;
+	color: #E8F1F5;
 }
 
 a{
@@ -127,8 +132,9 @@ NAVBAR
 
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
-	color: #000;
-	border: 1px solid #1989AC;
+	color: #E8F1F5;
+	border: 1px solid #FFDE25;
+	background: #1989AC;
 }
 
 .navbar-small{
@@ -150,7 +156,7 @@ NAVBAR
 
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus{
-	color: #1989AC;
+	color: #E8F1F5;
 	border:none;
 }
 
@@ -229,7 +235,7 @@ Services
 }
 
 .video-wrapper{
-	background-image: url(../img/header.jpg);
+	background-image: url(../img/DSC_0493.JPG);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -243,9 +249,18 @@ Services
 	background: rgba(39, 40, 43, 0.8);
 	padding: 100px 0;
 }
+.video2 {
+	text-align: center;
+	background: #283E56;
+	background: rgba(39, 40, 43, 0.8);
+	color: #E8F1F5;
+	padding: 100px 0;
+}
 
 .video h3,
 .video p{
+
+	
 	color: #fff;
 }
 
@@ -530,7 +545,7 @@ BLOGS
 *******************************/
 #blog{
 	background-color: #3f3f41;
-	background-image: url(../img/blog-section.jpg);
+	background-image: url(../img/bg8.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
